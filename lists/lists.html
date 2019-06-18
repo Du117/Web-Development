@@ -9,43 +9,82 @@
     </head>
     <body bgcolor=#0F4B5E text=#00FFE1> <!--Unordered Lists - ul and Ordered Lists - ol-->
         <h1>Demonstration of HTML Lists -- Unordered Lists and Ordered Lists</h1>
-        <hr /><br /><br />
-        <p>HTML supports two types of lists, <strong>Unordered Lists (ul)</strong> and <strong>Ordered Lists (ol)</strong>.<br/><br /><hr />
-        <h4>Demonstration of Ordered Lists:</h4>
-        <ol>
-            <li>The First Element</li>
-            <li>The Second Element</li>
-            <li>The Third Element</li>
-            <li>The Fourth Element</li>
-            <li>The Fifth Element</li>
-            <li>The Sixth Element</li>
-        </ol>
-        <ol type="A" reversed>
-            <li>The First Element</li>
-            <li>The Second Element</li>
-            <li>The Third Element</li>
-            <li>The Fourth Element</li>
-            <li>The Fifth Element</li>
-            <li>The Sixth Element</li>
-        </ol>
-        <ol start="3">
-            <li>The First Element</li>
-            <li>The Second Element</li>
-            <li>The Third Element</li>
-            <li>The Fourth Element</li>
-            <li>The Fifth Element</li>
-            <li>The Sixth Element</li>
-        </ol>
-        <hr /><br /><br /><br /><hr />
-        <h4>Demonstration of Unordered Lists:</h4>
-        <ul type="circle"> <!--Other options include "disc" and "square"-->
-            <li>The First Element</li>
-            <li>The Second Element</li>
-            <li>The Third Element</li>
-            <li>The Fourth Element</li>
-            <li>The Fifth Element</li>
-            <li>The Sixth Element</li>
-        </ul><hr />
-        </p>
+        <hr /><br />
+        <p>HTML supports two types of lists, <strong>Unordered Lists (ul)</strong>, <strong>Ordered Lists (ol)</strong> and <strong>Definition Lists
+        (dl)</strong>. The following paragrapgh demonstrates the various types of lists, namely, Ordered and Unordered Lists and also the various
+        ways in which these lists can be implemented.<br/><br /><hr />
+        <div>
+            <h4>Demonstration of Ordered Lists:</h4>
+            <ol>
+                <li>The First Element</li>
+                <li>The Second Element</li>
+                <li>The Third Element</li>
+                <li>The Fourth Element</li>
+                <li>The Fifth Element</li>
+                <li>The Sixth Element</li>
+            </ol>
+            <ol type="A" reversed>
+                <li>The First Element</li>
+                <li>The Second Element</li>
+                <li>The Third Element</li>
+                <li>The Fourth Element</li>
+                <li>The Fifth Element</li>
+                <li>The Sixth Element</li>
+            </ol>
+            <ol start="3">
+                <li>The First Element</li>
+                <li>The Second Element</li>
+                <li>The Third Element</li>
+                <li>The Fourth Element</li>
+                <li>The Fifth Element</li>
+                <li>The Sixth Element</li>
+            </ol>
+        </div>
+        <hr /><br /><br /><hr />
+        <div>
+            <h4>Demonstration of Unordered Lists:</h4>
+            <ul type="circle"> <!--Other options include "disc" and "square"-->
+                <li>The First Element</li>
+                <li>The Second Element</li>
+                <li>The Third Element</li>
+                <li>The Fourth Element</li>
+                <li>The Fifth Element</li>
+                <li>The Sixth Element</li>
+            </ul>
+        </div>
+        <hr /><br /><br /><hr />
+        <div>
+            <h4>Demonstration of Nested Lists</h4>
+            <ul type="square">
+                <li>First Element</li>
+                <ul type="disc">
+                    <li>Element 2.1</li>
+                    <li>Element 2.2</li>
+                    <li>Element 2.3</li>
+                </ul>
+                <li>Third Element</li>
+                <ol type="A">
+                    <li>Element 4.1</li>
+                    <li>Element 4.2</li>
+                    <li>Element 4.3</li>
+                </ol>
+                <li>Fifth Element</li>
+            </ul>
+        </div>
+        <hr /><br /><br /><hr />
+        <div>
+            <h4>Demonstration of  Definition Lists</h4>
+            <dl>
+                <dt>Sashimi</dt>
+                    <dd>Sliced raw fish that is served with condiments such as shredded daikon raddish or ginger-root, wasabi and soy sauce.</dd>
+                <dt>Scale</dt>
+                    <dd>An instrument used to accurately measure the weight of ingredients.</dd>
+                    <dd>A technique by which scales are removed from the skin of fish.</dd>
+                <dt>Scamorze</dt>
+                <dt>Scamorzo</dt>
+                    <dd>An italian cheese usually made from whole cow's milk (although traditionally it was made from buffalo milk).</dd>
+            </dl>
+        </div>
+        <hr /></p>
     </body>
 </html>
